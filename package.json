@@ -1,0 +1,25 @@
+{
+  "name": "nestjs-workshop-2018",
+  "version": "1.0.0",
+  "description": "This is a Workshop about NestJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salorrego/nestjs-workshop-2018.git"
+  },
+  "keywords": [
+    "api",
+    "dojo",
+    "practice",
+    "NestJS"
+  ],
+  "author": "Salomon Orrego M - salorrego@gmail.com (salorrego)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/salorrego/nestjs-workshop-2018/issues"
+  },
+  "homepage": "https://github.com/salorrego/nestjs-workshop-2018#readme"
+}
