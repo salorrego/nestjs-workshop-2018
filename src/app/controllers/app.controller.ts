@@ -2,8 +2,8 @@ import { Controller, Get } from '@nestjs/common';
 
 @Controller('')
 export class AppController {
- @Get('')
- public async healthCheck() {
-   return { message: 'Service is ok' };
- }
+  @Get('')
+  public async healthCheck() {
+    return { message: 'Service is ok' };
+  }
 }
