@@ -13,4 +13,9 @@ export class BookService {
   public find(conditions) {
     return this.model.find(conditions).exec();
   }
+
+  public create(book) {
+    const newBook = new this.model(book);
+    newBook.save();
+  }
 }

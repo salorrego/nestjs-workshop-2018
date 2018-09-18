@@ -1,5 +1,6 @@
-import { Controller, Get, Query } from '@nestjs/common';
+import { Controller, Get, Query, Post, Body } from '@nestjs/common';
 import { BookService } from '../services/book.service';
+import { IBook } from '../interfaces/book.interface';
 
 @Controller('api/v1/books')
 export class BookController {
@@ -12,5 +13,10 @@ export class BookController {
       conditions.author = author;
     }
     return this.bookService.find(conditions);
+  }
+
+  @Post()
+  public create(@Body() book: IBook) {
+    return this.bookService.create(book);
   }
 }

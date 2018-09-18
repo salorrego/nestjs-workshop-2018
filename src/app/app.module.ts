@@ -11,7 +11,7 @@ import { BookController } from './controllers/book.controller';
     BookController
   ],
   imports: [
-    MongooseModule.forRoot('mongodb://127.0.0.1:27017/bot', { useNewUrlParser: true }),
+    MongooseModule.forRoot('mongodb://127.0.0.1:27017/test', { useNewUrlParser: true }),
     MongooseModule.forFeature([
       { name: 'tokenBookSchema', schema: bookSchema }
     ]),
